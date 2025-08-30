@@ -18,5 +18,6 @@ public class PS_exe1 {
         int sub6 = sc.nextInt();
         float percentegs = ((sub1 + sub2 + sub3 + sub4 + sub5 + sub6) / 600.0f) * 100;
         System.out.println("Your Percentage is: " + percentegs + "%");
+        sc.close();
     }
 }
