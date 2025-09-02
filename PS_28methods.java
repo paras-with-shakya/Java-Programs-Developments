@@ -10,7 +10,7 @@ public class PS_28methods {
 
     static void foo(int a, int b) {
         System.out.println("Good Morning " + a + " Bro! ");
-        System.out.println("Good Morning " + b + " Bro! ");
+        System.out.println("Good Morning " + b + " Bhai! ");
     }
     // static void change1(int a1) {
     // a1 = 98;

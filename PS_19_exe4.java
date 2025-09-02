@@ -97,5 +97,6 @@ public class PS_19_exe4 {
         } else if (Webside.endsWith(".in")) {
             System.out.println("This is a Indian Website");
         }
+        sc.close();
     }
 }
