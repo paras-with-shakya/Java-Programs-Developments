@@ -15,7 +15,7 @@ class Dog extends Animal {
 }
 
 // Main class to test inheritance
-public class Fst_1_inheritance {
+public class PS_36_inheritance {
     public static void main(String[] args) {
         Dog dog = new Dog();
         dog.name = "Buddy";
