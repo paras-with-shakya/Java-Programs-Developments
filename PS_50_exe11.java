@@ -73,14 +73,15 @@ public class PS_50_exe11 {
         // hm.speak();
 
         //Question 5
-        Monkey mn =new Human();
-        mn.jump();
-        mn.bite();
+        // Monkey mn =new Human();
+        // mn.jump();
+        // mn.bite();
         // mn.sleep(); // monkey which does not have speak methods This line will cause a compile-time error
 
         BasicAnimal mess = new Human();
         // mess.speak();--> //Does not work because BasicAnimal interface does not have speak method
         mess.eat();
         mess.sleep();
+
     }
 }
