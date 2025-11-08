@@ -18,10 +18,10 @@ class C1 {
 public class PS_53_acces_modifiars {
     public static void main(String[] args) {
         C1 obj = new C1();
-        // obj.math();
-        System.out.println(obj.x);
-        System.out.println(obj.y);
-        System.out.println(obj.z);
+        obj.math();
+        // System.out.println(obj.x);
+        // System.out.println(obj.y);
+        // System.out.println(obj.z);
         // System.out.println(obj.a); // This will throw an error as 'a' is private
     }
 
