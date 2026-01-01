@@ -11,8 +11,6 @@ public class PS_52_packages {
         int a = sc.nextInt();
 
         System.out.println("Enter The Number is: " + a);
-
-        sc.close();
     }
 
 }

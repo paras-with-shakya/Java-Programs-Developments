@@ -16,26 +16,20 @@ class MyThreadRunnable2 implements Runnable{
         int i = 0;
         while(i<4000){
             System.out.println("My Runnable Thread 2 is running");
-            System.out.println("I am enjoying Runnable!");
+            System.out.println("I am Chatting!");
             i++;
         }
     }
 }
 
-
-
 public class PS_56_Runnable {
     public static void main(String[] args) {
-        MyThreadRunnable1 r1 = new MyThreadRunnable1();
-        MyThreadRunnable2 r2 = new MyThreadRunnable2();
+        MyThreadRunnable1 b1 = new MyThreadRunnable1();
+        Thread gun1 = new Thread(b1);
+        MyThreadRunnable2 b2 = new MyThreadRunnable2();
+        Thread gun2 = new Thread(b2);
 
-        Thread t1 = new Thread(r1);
-         
-        Thread t2 = new Thread(r2);
-
-        t1.start();
-        t2.start();
-        
-
+        gun1.start();
+        gun2.start();
     }
 }
