@@ -13,18 +13,22 @@ interface childSampleInterface extends SempleInterface {
 
 class MyMainClass implements childSampleInterface {
 
+    @Override
     public void math1() {
         System.out.println("This is a mathod Math1");
     }
 
+    @Override
     public void math2() {
         System.out.println("This is a mathod Math2");
     }
 
+    @Override
     public void math3() {
         System.out.println("This is a mathod Math3");
     }
 
+    @Override
     public void math4() {
         System.out.println("This is a mathod Math4");
     }

@@ -1,5 +1,6 @@
 
 class MyThreadRunnable1 implements Runnable{
+    @Override
     public void run(){
         int i = 0;
         while(i<4000){
@@ -10,6 +11,7 @@ class MyThreadRunnable1 implements Runnable{
     }
 }
 class MyThreadRunnable2 implements Runnable{
+    @Override
     public void run(){
         int i = 0;
         while(i<4000){
