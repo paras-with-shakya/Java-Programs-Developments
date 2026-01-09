@@ -4,10 +4,13 @@ class MyThr extends Thread {
     }
     @Override
     public void run(){
-        int i =0;
-        while(i<2){
-            System.out.println("Thre is my Thread");
-            i++;
+        // int i =0;
+        // while(i<2){
+        //     System.out.println("Thre is my Thread");
+        //     i++;
+        // }
+        for(int i=0; i<2; i++){
+            System.out.println("This is my Thread");
         }
     }
 }
@@ -16,9 +19,12 @@ public class PS_57_ThreadStr {
     public static void main(String[] args) {
         MyThr t1 = new MyThr("Paras Shakya");
         t1.start();
+        MyThr t2 = new MyThr("Arajun Shakya");
+        t2.start();
         System.out.println("The name of my thread is: " + t1.getId());
         System.out.println("The name of the threadis: " + t1.getName());
-        
+        System.out.println("The name of my thread is: " + t2.getId());
+        System.out.println("The name of the threadis: " + t2.getName());
+
     }
-    
 }

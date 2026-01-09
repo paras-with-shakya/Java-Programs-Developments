@@ -1,4 +1,4 @@
-
+      
 class MyThreadRunnable1 implements Runnable{
     @Override
     public void run(){
@@ -21,7 +21,6 @@ class MyThreadRunnable2 implements Runnable{
         }
     }
 }
-
 public class PS_56_Runnable {
     public static void main(String[] args) {
         MyThreadRunnable1 b1 = new MyThreadRunnable1();
