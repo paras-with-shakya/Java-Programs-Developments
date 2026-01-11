@@ -8,9 +8,7 @@ class MyThread1 extends Thread {
             System.out.println("I am Happy!");
             i++;
         }
-
     }
-
 }
 
 class MyThread2 extends Thread {
@@ -22,9 +20,7 @@ class MyThread2 extends Thread {
             System.out.println("I am not exiting!");
             i++;
         }
-
     }
-
 }
 
 public class PS_55_multi {
