@@ -15,7 +15,7 @@ class C1 {
 
 }
 
-public class PS_53_acces_modifiars {
+public class PS_53_accesmodifiars {
     public static void main(String[] args) {
         C1 obj = new C1();
         obj.math();
